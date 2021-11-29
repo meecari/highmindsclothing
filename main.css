@@ -716,7 +716,7 @@ form button .fas {
 }
 .social-icons {
     float: right;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 .social-icons .fab {
     width: 40px;
@@ -788,7 +788,6 @@ form button .fas {
         flex-basis: 100%;
     }
 }
-
 
 
 
