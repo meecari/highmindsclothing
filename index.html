@@ -24,28 +24,20 @@
 
 <body class ="body">
 
-	<div class="topnav" id="myTopnav" id="micon">
-        <header>
-           
-            <img class="logo" src="images/logo.png" alt="logo" >
-            <nav>
-                <ul class="navlinks">
-                    <li> <a href="index.html"> Home </a> </li>
-                    <li> <a href="products.html"> Product </a> </li>
-                    <li> <a href="about.html"> About Us </a> </li>
-                <ul>
-
-                   
-          
-            <button type="button" class = "navbar-toggle" data-toggle="collapse" data-target="#micon">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </nav>
-            
-        </header>
-    </div>
+	    <nav id="navbar">
+         <div class="logo">
+            <img src="images/logo.png" alt="logo" >
+         </div>
+         <input type="checkbox" id="click">
+         <label for="click" class="menu-btn">
+         <i class="fas fa-bars"></i>
+         </label>
+         <ul>
+            <li><a class="active"  href="index.html">Home</a></li>
+            <li><a href="products.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+         </ul>
+      </nav>
 	
 	<!-- SLIDESHOW -->
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -248,6 +240,20 @@
 			offset: 180,
 			duration: 1000
 		});
+	</script>
+	<script>	
+		window.onscroll = function() {myFunction()};
+
+		var navbar = document.getElementById("navbar");
+		var sticky = navbar.offsetTop;
+
+		function myFunction() {
+		  if (window.pageYOffset >= sticky) {
+			navbar.classList.add("sticky")
+		  } else {
+			navbar.classList.remove("sticky");
+		  }
+		}
 	</script>
 </body>
 </html>
