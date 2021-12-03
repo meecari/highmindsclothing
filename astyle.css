@@ -4,13 +4,13 @@
 *{
 	padding: 0;
 	margin: 0;
-	font-family: DM Sans;
 	box-sizing: border-box;
 	
 }
 
 body {
 	background-color: black;
+	font-family: 'Quicksand', sans-serif;
 }
 
 /* NAV BAR */
@@ -42,7 +42,7 @@ nav ul li a{
   color: #f2f2f2;
   text-decoration: none;
   font-size: 15px;
-  font-family: Quicksand;
+  font-family: DM Sans, san-serif;
   padding: 8px 40px;
   letter-spacing: 1px;
   transition: all 0.3s ease;
@@ -148,12 +148,12 @@ input[type="checkbox"]{
 	color: white;
 	font-size: 5vw;
 	text-transform: capitalize;
-	margin-bottom: 20px;
+	margin: 15px 0;
 }
 
 .about-text h5{
 	color: white;
-	font-size: 4vw;
+	font-size: 2vw;
 	text-transform: capitalize;
 	margin-bottom: 25px;
 	letter-spacing: 2px;
@@ -237,9 +237,9 @@ footer p {
 
 footer h3 {
 	font-size: 16px;
-	font-weight: bold;
 	letter-spacing: 2px;
 	margin-bottom: 20px;
+	font-weight: bold;
 }
 
 
