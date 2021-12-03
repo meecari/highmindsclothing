@@ -147,14 +147,14 @@ input[type="checkbox"]{
 
 .about-text h1{
 	color: white;
-	font-size: 8vw;
+	font-size: 7vw;
 	text-transform: capitalize;
 	margin-bottom: 20px;
 }
 
 .about-text h5{
 	color: white;
-	font-size: 5vw;
+	font-size: 6vw;
 	text-transform: capitalize;
 	margin-bottom: 25px;
 	letter-spacing: 2px;
@@ -167,7 +167,7 @@ input[type="checkbox"]{
 	color: white;
 	letter-spacing: 1px;
 	line-height: 28px;
-	font-size: 4vw;
+	font-size: 2vw;
 	margin-bottom: 45px;
 }
 
