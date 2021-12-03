@@ -162,6 +162,7 @@ input[type="checkbox"]{
 
  span{
 	color: red;
+	 text-transform: capitalize;
 }
 .about-text p{
 	color: white;
